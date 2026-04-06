@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body { font-family: 'Sora', 'Segoe UI', sans-serif; color: #0f1f3d; background: #fff; overflow-x: hidden; }
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-thumb { background: #1a73e8; border-radius: 3px; }
+}
+
+@layer components {
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-full
+           text-[15px] font-semibold text-white border-none cursor-pointer
+           transition-all duration-300 hover:-translate-y-0.5 disabled:opacity-70;
+    background: linear-gradient(135deg, #1a73e8, #0d47a1);
+    box-shadow: 0 4px 20px rgba(26,115,232,.4);
+    letter-spacing: .3px;
+  }
+  .btn-primary:hover { box-shadow: 0 8px 30px rgba(26,115,232,.5); }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-full
+           text-[15px] font-semibold text-white bg-transparent cursor-pointer
+           transition-all duration-300 hover:-translate-y-0.5;
+    border: 2px solid rgba(255,255,255,.7);
+    letter-spacing: .3px;
+  }
+  .btn-outline:hover { background: rgba(255,255,255,.15); border-color: #fff; }
+
+  .section-tag {
+    @apply inline-block bg-tag text-brand px-[18px] py-1.5 rounded-full
+           text-[13px] font-semibold tracking-widest uppercase mb-3;
+  }
+
+  .section-title {
+    @apply font-extrabold text-navy leading-tight mb-4;
+    font-size: clamp(28px, 4vw, 42px);
+  }
+
+  .section-sub {
+    @apply text-[17px] text-muted leading-[1.7] max-w-[580px];
+  }
+
+  .card {
+    @apply bg-white rounded-[20px] transition-all duration-300;
+    box-shadow: 0 4px 30px rgba(15,31,61,.08);
+  }
+  .card:hover {
+    @apply -translate-y-1.5;
+    box-shadow: 0 12px 50px rgba(26,115,232,.15);
+  }
+
+  .field {
+    @apply w-full px-[18px] py-3.5 rounded-xl text-[15px] text-navy
+           bg-surface outline-none transition-all duration-300;
+    border: 1.5px solid #d0dce8;
+    font-family: 'Sora', sans-serif;
+  }
+  .field:focus {
+    border-color: #1a73e8;
+    background: #fff;
+    box-shadow: 0 0 0 4px rgba(26,115,232,.1);
+  }
+
+  .nav-link {
+    @apply bg-transparent border-none cursor-pointer text-[14px] font-semibold
+           px-3.5 py-2 rounded-lg transition-all duration-200;
+    letter-spacing: .2px;
+    font-family: 'Sora', sans-serif;
+  }
+
+  .wa-fab {
+    @apply fixed bottom-7 right-7 w-[58px] h-[58px] rounded-full flex items-center
+           justify-center border-none cursor-pointer z-[999] transition-all duration-300;
+    background: #25D366;
+    box-shadow: 0 4px 20px rgba(37,211,102,.5);
+  }
+  .wa-fab:hover { transform: scale(1.12); box-shadow: 0 8px 30px rgba(37,211,102,.6); }
+
+  .tag-badge {
+    @apply inline-block px-3.5 py-1 rounded-full text-xs font-bold;
+  }
+  .tag-commercial  { @apply bg-[#e3f2fd] text-[#0d47a1]; }
+  .tag-residential { @apply bg-[#e8f5e9] text-[#1b5e20]; }
+
+  .page-hero {
+    @apply py-20 px-[5%] text-center relative overflow-hidden;
+    background: linear-gradient(135deg, #0a1628 0%, #0d2654 40%, #1a3a7e 70%, #1565c0 100%);
+  }
+}
+
+@media (max-width: 900px) {
+  .desktop-nav { display: none !important; }
+  .hamburger   { display: block !important; }
+}

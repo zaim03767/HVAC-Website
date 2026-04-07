@@ -38,7 +38,7 @@ export default function Footer({ setPage }) {
               </div>
             </div>
             <p className="text-sm leading-relaxed max-w-[280px] mb-6">
-              Pakistan's trusted HVAC engineering firm. Certified, reliable, and
+              Kuwait's trusted HVAC engineering firm. Certified, reliable, and
               energy-efficient solutions for every space.
             </p>
             <div className="flex gap-3">

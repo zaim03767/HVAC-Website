@@ -1,16 +1,86 @@
-# React + Vite
+# HVAC Pro Engineering Solutions
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive HVAC business website built with **React**, **Vite**, and **Tailwind CSS**.  
+This project showcases HVAC engineering services for residential and commercial clients, with dedicated sections for services, projects, testimonials, and contact inquiries.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[View Live Website](https://hvac-website-iota.vercel.app/)
 
-## React Compiler
+## GitHub Repository
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+[HVAC-Website](https://github.com/zaim03767/HVAC-Website)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Overview
+
+HVAC Pro Engineering Solutions is a clean and professional frontend website designed for an HVAC engineer or HVAC subcontracting business. It presents the company’s expertise, services, completed projects, customer testimonials, and contact options in a polished single-page experience.
+
+The website is designed to help attract potential customers by highlighting:
+
+- HVAC installation and maintenance services
+- Residential and commercial expertise
+- Energy-efficient solutions
+- Client trust and testimonials
+- Quick contact through email and WhatsApp
+
+---
+
+## Features
+
+- **Modern responsive UI**
+- **Single-page navigation experience**
+- **Professional hero section with business stats**
+- **Services showcase**
+- **About and mission section**
+- **Why choose us section**
+- **Projects portfolio with category filters**
+- **Testimonials section**
+- **Contact form**
+- **WhatsApp quick contact button**
+- **Clean and reusable React component structure**
+
+---
+
+## Pages / Sections
+
+- **Home**
+- **About**
+- **Services**
+- **Why Us**
+- **Projects**
+- **Testimonials**
+- **Contact**
+
+---
+
+## Tech Stack
+
+- **React**
+- **Vite**
+- **Tailwind CSS**
+- **JavaScript (ES6+)**
+- **PostCSS**
+- **ESLint**
+
+---
+
+## Project Structure
+
+```bash
+HVAC-Website/
+│── public/
+│── src/
+│   ├── components/
+│   ├── pages/
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── index.css
+│   └── constants.js
+│── index.html
+│── package.json
+│── tailwind.config.js
+│── postcss.config.js
+│── vite.config.js
+└── README.md

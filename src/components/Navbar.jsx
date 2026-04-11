@@ -50,7 +50,7 @@ export default function Navbar({ currentPage, setPage }) {
           </div>
           <div>
             <div className={`font-extrabold text-[17px] leading-tight ${light ? "text-white" : "text-navy"}`}>
-              HVAC Pro
+              Malik HVAC
             </div>
             <div className={`text-[11px] font-semibold tracking-widest ${light ? "text-blue-300" : "text-brand"}`}>
               ENGINEERING SOLUTIONS

@@ -31,7 +31,7 @@ export default function Footer({ setPage }) {
                 ❄️
               </div>
               <div>
-                <div className="font-extrabold text-lg text-white">HVAC Pro</div>
+                <div className="font-extrabold text-lg text-white">Malik HVAC</div>
                 <div className="text-[11px] text-blue-400 font-semibold tracking-widest">
                   ENGINEERING SOLUTIONS
                 </div>
@@ -79,7 +79,7 @@ export default function Footer({ setPage }) {
 
         {/* Bottom bar */}
         <div className="border-t border-white/10 pt-7 flex flex-col md:flex-row justify-center items-center gap-4">
-          <p className="text-sm">© 2025 HVAC Pro Engineering Solutions. All rights reserved.</p>
+          <p className="text-sm">© 2025 Malik HVAC Engineering Solutions. All rights reserved.</p>
           { }
         </div>
 

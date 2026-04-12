@@ -1,7 +1,7 @@
 import { PageHero } from "../components/Shared";
 
 const BADGES = [
-  ["🎓", "PEC Certified",    "Pakistan Engineering Council"],
+  ["🎓", "MOW Certified",    "Kuwait Ministry of Works Approved"],
   ["🌿", "Energy Star",      "Efficiency Specialist"],
   ["🛡️", "2-Year Warranty",  "On All Labor & Parts"],
   ["📋", "ASHRAE Member",    "Global HVAC Standards"],
@@ -14,7 +14,7 @@ export default function AboutPage({ setPage }) {
     <>
       <PageHero
         title="About Us"
-        subtitle="15+ years of certified HVAC engineering excellence across Pakistan."
+        subtitle="15+ years of certified HVAC engineering excellence across Kuwait."
         page="About"
         setPage={setPage}
       />
@@ -52,11 +52,11 @@ export default function AboutPage({ setPage }) {
             <h2 className="section-title">Your Trusted HVAC Engineering Partner</h2>
             <p className="section-sub mb-7">
               With over 15 years of hands-on experience, we are a certified HVAC engineering firm
-              serving Lahore and across Pakistan. Our team brings technical mastery, safety-first
+              serving Kuwait City and across Kuwait. Our team brings technical mastery, safety-first
               protocols, and a commitment to energy-efficient solutions to every project.
             </p>
             <p className="text-base text-muted leading-[1.8] mb-9">
-              We hold certifications from ASHRAE, ACCA, and Pakistan Engineering Council (PEC).
+              We hold certifications from ASHRAE, ACCA, and Kuwait Ministry of Works (MOW).
               Whether it's a luxury villa or a multi-story commercial complex, we deliver
               precision-engineered climate control systems that last.
             </p>

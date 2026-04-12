@@ -2,7 +2,7 @@ import { REASONS } from "../constants";
 import { PageHero } from "../components/Shared";
 
 const CERTS = [
-  ["🎓", "PEC Certified",      "Pakistan Engineering Council member in good standing"],
+  ["🎓", "MOW Certified",      "Kuwait Ministry of Works approved contractor"],
   ["🌿", "Energy Star Partner","Recognised for energy-efficient HVAC systems"],
   ["📋", "ASHRAE Member",      "Adhering to global HVAC & refrigeration standards"],
   ["🛡️", "2-Year Warranty",   "Full coverage on all installation and repair work"],

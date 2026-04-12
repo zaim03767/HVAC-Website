@@ -47,7 +47,7 @@ export default function TestimonialsPage({ setPage }) {
             <div className="text-6xl font-extrabold text-white mb-2">4.9</div>
             <div className="text-yellow-400 text-2xl mb-3">★★★★★</div>
             <p className="text-white/70 text-base">
-              Based on 200+ verified reviews across Pakistan
+              Based on 200+ verified reviews across Kuwait
             </p>
           </div>
 

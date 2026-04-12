@@ -16,19 +16,19 @@ export const REASONS = [
 ];
 
 export const PROJECTS = [
-  { title: "Downtown Office Tower", type: "Commercial", detail: "Full HVAC overhaul — 12 floors, 48 zones", img: "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=600&q=80" },
-  { title: "Luxury Villa, Gulberg", type: "Residential", detail: "Smart zoning + heat pump system", img: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80" },
-  { title: "Shopping Mall, DHA", type: "Commercial", detail: "Central plant + 200-ton chiller installation", img: "https://images.unsplash.com/photo-1519567241046-7f570eee3ce6?w=600&q=80" },
-  { title: "Modern Apartment Complex", type: "Residential", detail: "VRF system across 60 units", img: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=600&q=80" },
-  { title: "Hospital Wing, Johar Town", type: "Commercial", detail: "Clean-room-grade ventilation & HEPA filtration", img: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600&q=80" },
-  { title: "Tech Park, Model Town", type: "Commercial", detail: "BMS-integrated energy-efficient cooling", img: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80" },
+  { title: "Kuwait City Office Tower", type: "Commercial", detail: "Full HVAC overhaul — 12 floors, 48 zones", img: "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=600&q=80" },
+  { title: "Luxury Villa, Salmiya", type: "Residential", detail: "Smart zoning + inverter split system", img: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80" },
+  { title: "Shopping Mall, Hawalli", type: "Commercial", detail: "Central plant + 200-ton chiller installation", img: "https://images.unsplash.com/photo-1519567241046-7f570eee3ce6?w=600&q=80" },
+  { title: "Modern Apartment Complex, Mangaf", type: "Residential", detail: "VRF system across 60 units", img: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=600&q=80" },
+  { title: "Hospital Wing, Rumaithiya", type: "Commercial", detail: "Clean-room-grade ventilation & HEPA filtration", img: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600&q=80" },
+  { title: "Tech Park, Sabah Al-Salem", type: "Commercial", detail: "BMS-integrated energy-efficient cooling", img: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80" },
 ];
 
 export const TESTIMONIALS = [
-  { name: "Ahmed Raza", location: "Lahore, Punjab", rating: 5, text: "Exceptional service from start to finish. The team installed our office HVAC system on time and the energy savings have been remarkable. Highly recommended!" },
-  { name: "Sara Khan", location: "Islamabad, ICT", rating: 5, text: "Our home AC stopped working on the hottest day of summer. They arrived within 2 hours and had it running perfectly. True professionals!" },
-  { name: "Usman Tariq", location: "Faisalabad, Punjab", rating: 5, text: "Best HVAC consultation I've had. The energy audit saved us 30% on our monthly electricity bill. Worth every rupee." },
-  { name: "Fatima Malik", location: "Karachi, Sindh", rating: 5, text: "Installed a complete ducted system across our 3-floor house. Immaculate workmanship and the team was respectful and clean throughout." },
+  { name: "Abdullah Al-Mutairi", location: "Kuwait City, Kuwait", rating: 5, text: "Outstanding service from start to finish. They installed our office HVAC system on time and the energy savings have been remarkable. With Kuwait summers hitting 50°C, having a reliable system is not optional — this team delivered exactly that!" },
+  { name: "Noura Al-Rashidi", location: "Salmiya, Kuwait", rating: 5, text: "Our central AC broke down during the peak of summer. They arrived within 2 hours and restored cooling completely. In this heat, that response time is a lifesaver. Truly professional and trustworthy." },
+  { name: "Faisal Al-Ajmi", location: "Hawalli, Kuwait", rating: 5, text: "The energy audit they conducted cut our monthly electricity bill by over 30%. Given how hard ACs work here year-round, that's a massive saving. I'd recommend their consultation service to every villa and business owner in Kuwait." },
+  { name: "Maryam Al-Enezi", location: "Rumaithiya, Kuwait", rating: 5, text: "Had a full ducted HVAC system installed across our three-floor home in Rumaithiya. The workmanship was immaculate, the team was respectful and left everything spotless. The cooling is perfectly even in every room — couldn't be happier." },
 ];
 
 export const WHATSAPP = "96550277786";

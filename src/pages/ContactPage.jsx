@@ -114,7 +114,7 @@ export default function ContactPage({ setPage }) {
                   <label className="block text-[13px] font-semibold text-muted mb-2">Phone Number *</label>
                   <input
                     required
-                    placeholder="+92 300 000 0000"
+                    placeholder="+965 9000 0000"
                     value={form.phone}
                     onChange={(e) => setForm({ ...form, phone: e.target.value })}
                     className="field"
